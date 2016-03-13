@@ -8,6 +8,14 @@
     body{
         background-color: white ;
     }
+    nav a:visited { 
+        color: black;
+        text-decoration: none;
+    }
+    nav a:hover, nav a:visited, nav a:link, nav a:active
+    {
+    text-decoration: none;
+    }
     li{
         display: inline-block;
         font-size:20px;
@@ -17,7 +25,7 @@
     }
     li a{
         text-decoration: none;
-        border: 1px solid black;
+        border: 3px solid black;
         padding: 15px 95px 15px 95px;
         border-radius: 5px;
         background-color: rgba(255,255,255,.5);
@@ -43,6 +51,17 @@
         left: 50px;
         width: 600px;
         text-align:center; 
+    }
+    .son_fucks{
+        position: absolute;
+        top: 180px;
+        left: 55%;
+        width: 850px;
+        text-align:center; 
+
+    }
+    .son_fucks li{
+        
     }
 
    h1{
@@ -89,10 +108,12 @@
 
     .sb{
         left :90%;
-        top: 400px;
+        top: 700px;
         position: fixed;
     }
     .sb img{
+        position:relative;
+        top:0px;
         width: 100%;
         height: 100%;
         opacity :0.8;
@@ -106,14 +127,14 @@
         top:48%;
         margin:0;
         transform: translateY(-50%);
-        padding: 71px 0px 71px;
+        padding: 49px 0px 49px 0px;
         text-align: center;
         transition: background-color 1s, color 1s;
         opacity: 0;
         color:white;
     }
     .sb a:active{
-        padding: 71px 0px 71px 0px;
+        padding: 61px 0px 61px 0px;
     }
     .sb:hover h4{
         background-color: rgba(0,0,0,0.9);
@@ -162,10 +183,13 @@
         border-bottom: 1px solid rgba(50, 150, 50, 0.4);
         }
     .desktop{
+        padding:20px 10px 10px;
         width:100%;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom:40px;
-        border: 1px solid white;
+        border: 5px solid rgba(50,50,50,0.5);
+        border-width: 10px 10px 10px;
+        border-style: double;
         position: absolute;
         top: 40px;
     }
@@ -195,6 +219,11 @@
         margin-right:auto;
     }
 
+    .contact_form{
+        position:relative;
+        top:500px;
+    }
+
     @media(max-width: 888px){
         .son_pics div{
             width: 49%;
@@ -208,7 +237,7 @@
         left: 50px;
         width: 400px;
         text-align:center;
-    }
+        }
     }
     @media(max-width: 737px){
         .son_pics div{
@@ -227,4 +256,3 @@
             padding: 15px 35px 15px 35px;
         }
     }
-
