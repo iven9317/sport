@@ -59,7 +59,7 @@
     }
 
    h1{
-    text-align: center;
+        text-align: center;
    }
 
     .cont{
@@ -137,16 +137,16 @@
     }
 
     .sb a:link {
-    color: white;
-    text-decoration: none;
+        color: white;
+        text-decoration: none;
 
 
     }
     .sb a:visited {
         text-decoration: none;
-    color: white;
+        color: white;
     }
 
     img{
-        border-radius: 2%;
+        border-radius: 3%;
     }
