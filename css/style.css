@@ -27,20 +27,7 @@
         background-color: black;
         color:white;
     }
-    .footer{
-        text-align: center;
-        color:white;
-        background-color: black
-    }
-    .nav{
-        width:100%;
-        margin-top: 40px;
-        margin-bottom:40px;
-        border: 1px solid white;
-        position: absolute;
-        top: 40px;
-
-    }
+    
 
 
     .section form{
@@ -55,7 +42,7 @@
         top: 180px;
         left: 50px;
         width: 600px;
-        text-align:justify 
+        text-align:center; 
     }
 
    h1{
@@ -148,5 +135,96 @@
     }
 
     img{
-        border-radius: 3%;
+        border-radius: 1%;
     }
+
+    .footer{
+        position:relative;
+        top:0px;
+        width:100%;
+        text-align: center;
+        color:white;
+        background-color: black
+    }
+    .footer a{
+        text-decoration: none;
+        border-bottom: 1px solid #0d2c40;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -ms-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+        transition: background-color 1s, color 1s;
+    }
+    
+    .footer a:hover {
+        color: red;
+        border-bottom: 1px solid rgba(50, 150, 50, 0.4);
+        }
+    .desktop{
+        width:100%;
+        margin-top: 40px;
+        margin-bottom:40px;
+        border: 1px solid white;
+        position: absolute;
+        top: 40px;
+    }
+    .hamburger div{
+        width: 30px;
+        height:5px;
+        margin-top:5px;
+        background-color: #FF381B;
+    }
+    .mobile{
+        top:0px;
+        width:100%;
+        display:none;
+        padding:10px;
+        background-color: white;
+    }
+
+    table tr th{
+        text-align: center;
+    }
+    table tr th, table tr td{
+        border: 1px solid black;
+        padding: 5px;
+    }
+    .gametable{
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    @media(max-width: 888px){
+        .son_pics div{
+            width: 49%;
+        }
+        .son_pics{
+            top: 800px;
+        }
+        .section{
+        position: absolute;
+        top: 180px;
+        left: 50px;
+        width: 400px;
+        text-align:center;
+    }
+    }
+    @media(max-width: 737px){
+        .son_pics div{
+            width: 100%;
+        }
+        .desktop{
+            display:none;
+        }
+        .mobile{
+            display: block;
+        }
+
+    }
+    @media(max-width: 1190px){
+        li a{
+            padding: 15px 35px 15px 35px;
+        }
+    }
+
